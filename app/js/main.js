@@ -6,6 +6,13 @@ $(".scrollTo").on("click", function (e) {
     }, 300)
 });
 
+$.ajax({
+  url: "/js/libs.js",
+  dataType: "script",
+  success: function() {
+    console.log("script loaded");
+  }
+});
 
 $(document).ready(function() {
     $("#aLink").fancybox({

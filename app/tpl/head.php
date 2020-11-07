@@ -20,7 +20,7 @@
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 	<style>/*critical.css*/</style>
 	<?php require ("firstStyles.php");?>
-	<!-- <script src="http://localhost:6187/livereload.js"></script> -->
+	<script src="http://localhost:5882/livereload.js"></script>
 	
 	<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 
