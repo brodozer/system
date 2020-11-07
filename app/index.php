@@ -1199,15 +1199,15 @@
                       <h4>Выберите свою роль в компании</h4>
                       <div class="multi-form-radio">
                         <div class="rad-group">
-                          <input type="radio" id="mfr1" checked="checked" name="role" value="role">
+                          <input type="radio" id="mfr1" checked="checked" name="role" value="Собственник">
                           <label for="mfr1">Собственник</label>
                         </div>
                         <div class="rad-group">
-                          <input type="radio" id="mfr2" name="role" value="role">
+                          <input type="radio" id="mfr2" name="role" value="ТОП-менеджер">
                           <label for="mfr2">ТОП-менеджер</label>
                         </div>
                         <div class="rad-group">
-                          <input type="radio" id="mfr3" name="role" value="role">
+                          <input type="radio" id="mfr3" name="role" value="Сотрудник">
                           <label for="mfr3">Сотрудник</label>
                         </div>
                       </div>
