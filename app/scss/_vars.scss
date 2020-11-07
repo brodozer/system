@@ -1,0 +1,31 @@
+
+
+$main-font: 'zona', sans-serif;
+$exo-font: 'exo', sans-serif;
+$text:  rgba(255, 255, 255, 0.44);
+$default:#0b0b0b;
+$accent:#0E6BA8;
+// Mixins
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@mixin abs-c-c {
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%)
+}
+@mixin trans {
+	transition: .3s linear all;
+}
+
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 994px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 964px, xl: 1140px);
+
+$gutter: $grid-gutter-width;

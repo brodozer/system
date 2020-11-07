@@ -1,0 +1,21 @@
+// @import "../libs/bootstrap/scss/bootstrap.scss";
+
+@import "../libs/bootstrap/scss/bootstrap-reboot.scss" ;// Bootstrap Reboot collection
+@import "../libs/bootstrap/scss/bootstrap-grid.scss"; // Optional Bootstrap Grid
+@import "../libs/bootstrap/scss/mixins/_breakpoints.scss"; // Bootstrap Breakpoints mixin
+
+
+@import "../libs/bootstrap/scss/utilities/_align.scss";
+@import "../libs/bootstrap/scss/utilities/_display.scss";
+@import "../libs/bootstrap/scss/utilities/_flex.scss";
+@import "../libs/bootstrap/scss/utilities/_position.scss";
+@import "../libs/bootstrap/scss/utilities/_sizing.scss";
+@import "../libs/bootstrap/scss/utilities/_spacing.scss";
+@import "../libs/bootstrap/scss/utilities/_text.scss";
+// @import "../libs/bootstrap/scss/_buttons.scss";
+@import "../libs/bootstrap/scss/_navbar.scss";
+// @import "../libs/bootstrap/scss/_modal.scss";
+
+// @import "../libs/wow/animate.scss";
+@import "../libs/aos/style.scss";
+
