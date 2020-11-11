@@ -142,6 +142,15 @@ var galleryTop = new Swiper('.reviews-video .gallery-top', {
     }
 });
 
+var reinit_all_steps_forms = function() {
+  $('body').find('form').each(function(index, el) {
+    var $t = $(this);
+    if($t.find('.tab').length>0){
+      reinit_steps($t);
+    }
+  });
+}
+
 var reinit_steps = function($wrap){
     //initForm();
 
@@ -205,7 +214,8 @@ var reinit_steps = function($wrap){
     }   
 }
 
-reinit_steps($('#form2'));
+reinit_all_steps_forms();
+//reinit_steps($('#form2'));
 
 AOS.init({
     duration: 800,

@@ -1168,109 +1168,59 @@
       <div class="container mbcont">
         <div class="multi-form-main">
           <form id="form2">
-            <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="multi-form-item">
-                    <div class="multi-form-item-title">
-                      <h2>форма заявки</h2>
-                    </div>
-                    <div class="multi-form-item-content">
-                      <h3>Обсудим ваши задачи?</h3>
-                      <div class="tab">
-                        <div class="d-flex flex-column">
-                          <label for="name">Укажите ваше имя</label>
-                          <input type="text" id="name" required name="name" placeholder="Имя">
-                        </div>
-                      </div>
-                      <div class="tab">
-                        <div class="d-flex flex-column">
-                          <label for="tel">Укажите ваш телефон</label>
-                          <input type="tel" required name="phone" placeholder="+7 (123) 456 78 90">
-                        </div>
-                      </div>
-                      <div class="tab">
-                         <div class="d-flex flex-column">
-                          <label for="mail">Укажите ваш email</label>
-                          <input type="mail" id="mail" required name="email" placeholder="DENIS@MAIL.RU">
-                        </div>
-                      </div>
-      
-                      <h4>Выберите свою роль в компании</h4>
-                      <div class="multi-form-radio">
-                        <div class="rad-group">
-                          <input type="radio" id="mfr1" checked="checked" name="role" value="Собственник">
-                          <label for="mfr1">Собственник</label>
-                        </div>
-                        <div class="rad-group">
-                          <input type="radio" id="mfr2" name="role" value="ТОП-менеджер">
-                          <label for="mfr2">ТОП-менеджер</label>
-                        </div>
-                        <div class="rad-group">
-                          <input type="radio" id="mfr3" name="role" value="Сотрудник">
-                          <label for="mfr3">Сотрудник</label>
-                        </div>
-                      </div>
-                      <div>
-                        <!-- <button type="button" class="prevBtn form-btn">НАЗАД</button> -->
-                        <button type="button" class="nextBtn multi-form-btn">ДАЛЕЕ</button>
-                      </div>  
-                      <!-- <div class="swiper-button-next mform-next ">
-                        <p>Далее >></p>
-                      </div> -->
-                      <div class="mform-text">
-                        <p>Нажимая на кнопку,вы даете согласие на обработку
-                          своих персональных данных и соглашаетесь с Политикой <a data-fancybox="hidden-content4"
-                            data-src="#hidden-content4" href="javascript:;">конфиденциальности</a>
-                        </p>
-                      </div>
-                    </div>
+            <div class="multi-form-item">
+              <div class="multi-form-item-title">
+                <h2>форма заявки</h2>
+              </div>
+              <div class="multi-form-item-content">
+                <h3>Обсудим ваши задачи?</h3>
+                <div class="tab">
+                  <div class="d-flex flex-column">
+                    <label for="name">Укажите ваше имя</label>
+                    <input type="text" id="name" required name="name" placeholder="Имя">
                   </div>
                 </div>
-                <!-- <div class="swiper-slide">
-                  <div class="multi-form-item">
-                    <div class="multi-form-item-title">
-                      <h2>форма зявки</h2>
-                    </div>
-                    <div class="multi-form-item-content">
-                      <h3>Обсудим ваши задачи?</h3>
-                      <div class="d-flex flex-column">
-                        <label for="tel">Укажите ваш телефон</label>
-                        <input type="tel" required name="phone" placeholder="+7 (123) 456 78 90">
-                      </div>
-                      <div class="swiper-button-next mform-next">
-                        <p>Далее >></p>
-                      </div>
-                      <div class="mform-text">
-                        <p>Нажимая на кнопку,вы даете согласие на обработку
-                          своих персональных данных и соглашаетесь с Политикой <a data-fancybox="hidden-content5"
-                            data-src="#hidden-content5" href="javascript:;">конфиденциальности</a>
-                        </p>
-                      </div>
-                    </div>
+                <div class="tab">
+                  <div class="d-flex flex-column">
+                    <label for="tel">Укажите ваш телефон</label>
+                    <input type="tel" required name="phone" placeholder="+7 (123) 456 78 90">
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="multi-form-item">
-                    <div class="multi-form-item-title">
-                      <h2>форма зявки</h2>
-                    </div>
-                    <div class="multi-form-item-content">
-                      <h3>Обсудим ваши задачи?</h3>
-                      <div class="d-flex flex-column">
-                        <label for="mail">Укажите ваш email</label>
-                        <input type="mail" id="mail" required name="email" placeholder="DENIS@MAIL.RU">
-                      </div>
-                      <button class="multi-form-btn" type="submit">Обсудить задачи</button>
-                      <div class="mform-text">
-                        <p>Нажимая на кнопку,вы даете согласие на обработку
-                          своих персональных данных и соглашаетесь с Политикой <a data-fancybox="hidden-content6"
-                            data-src="#hidden-content6" href="javascript:;">конфиденциальности</a>
-                        </p>
-                      </div>
-                    </div>
+                <div class="tab">
+                   <div class="d-flex flex-column">
+                    <label for="mail">Укажите ваш email</label>
+                    <input type="mail" id="mail" required name="email" placeholder="DENIS@MAIL.RU">
                   </div>
+                </div>
+
+                <h4>Выберите свою роль в компании</h4>
+                <div class="multi-form-radio">
+                  <div class="rad-group">
+                    <input type="radio" id="mfr1" checked="checked" name="role" value="Собственник">
+                    <label for="mfr1">Собственник</label>
+                  </div>
+                  <div class="rad-group">
+                    <input type="radio" id="mfr2" name="role" value="ТОП-менеджер">
+                    <label for="mfr2">ТОП-менеджер</label>
+                  </div>
+                  <div class="rad-group">
+                    <input type="radio" id="mfr3" name="role" value="Сотрудник">
+                    <label for="mfr3">Сотрудник</label>
+                  </div>
+                </div>
+                <div>
+                  <!-- <button type="button" class="prevBtn form-btn">НАЗАД</button> -->
+                  <button type="button" class="nextBtn multi-form-btn">ДАЛЕЕ</button>
+                </div>  
+                <!-- <div class="swiper-button-next mform-next ">
+                  <p>Далее >></p>
                 </div> -->
+                <div class="mform-text">
+                  <p>Нажимая на кнопку,вы даете согласие на обработку
+                    своих персональных данных и соглашаетесь с Политикой <a data-fancybox="hidden-content4"
+                      data-src="#hidden-content4" href="javascript:;">конфиденциальности</a>
+                  </p>
+                </div>
               </div>
             </div>
           </form>
